@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(200, 220, 226);
+    height: 100vh;
+}
+
+.perfil {
+    padding: 30px;
+    text-align: center;
+    padding: 50px 0 0;
+
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    border-radius: 60%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    background: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 2px;
+
+}
